@@ -31,6 +31,8 @@ const packageModule = {
         commit(SET_TOTAL_PAGES, total)
       } catch (error) {
         throw error;
+        // Здесь должен быть какой-то обработчик задачи(это зависит от бизнес задач и контекста), 
+        // но в данном тестовом он не нужен
       }
     },
   },
